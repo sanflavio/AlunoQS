@@ -1,0 +1,45 @@
+3. Identifique a finalidade dos seguintes comandos:
+a. git init: Inicializa um novo repositório Git no diretório atual. Isso cria um repositório vazio e permite que você comece a rastrear as alterações dos arquivos no diretório.
+
+b. git config --global user.name "turing": Define o nome de usuário global que será associado aos seus commits Git em todos os repositórios. "turing" é um exemplo de nome.
+
+c. git add EXERCICIO.txt: Adiciona o arquivo "EXERCICIO.txt" ao índice (staging area), preparando-o para um futuro commit.
+
+d. git add -A: Adiciona todas as mudanças novos arquivos, alterações e remoções ao índice staging area para um futuro commit.
+
+e. git commit -m "Adicionado nova interface": Cria um novo commit com uma mensagem de commit descrevendo as alterações feitas. Neste caso, a mensagem é "Adicionado nova interface".
+
+f. git commit: Abre o editor de texto configurado no Git para que você possa inserir uma mensagem de commit. A mensagem é uma descrição das alterações feitas.
+
+g. git reset --hard HEAD: Desfaz todas as alterações no diretório de trabalho e no índice, revertendo para o commit mais recente na branch atual.
+
+h. cd Downloads: Muda o diretório de trabalho atual para a pasta Downloads.
+
+i. pwd: Exibe o diretório de trabalho atual.
+
+j. cd ..: Volta um diretório no sistema de arquivos, saindo do diretório atual para o diretório pai.
+
+k. ls: Lista o conteúdo do diretório atual, exibindo os nomes dos arquivos e pastas.
+
+l. git pull: Puxa as alterações do repositório remoto para o repositório local. Isso atualiza seu repositório local com as mudanças do repositório remoto.
+
+m. git push: Envia as alterações do repositório local para o repositório remoto. Isso atualiza o repositório remoto com as mudanças feitas localmente.
+
+n. git clone <<url>>: Clona faz o download um repositório Git remoto para o seu sistema, criando uma cópia local do repositório.
+
+o. git diff: Exibe as diferenças entre o diretório de trabalho atual e a última confirmação (commit).
+
+p. git show: Exibe informações detalhadas sobre um commit específico, incluindo as alterações feitas nesse commit.
+
+
+
+
+
+4. Descreva a função dos seguintes componentes do Git
+a. Working Tree, Working Area: A Working Tree é a área onde você trabalha em seus arquivos. É o diretório no seu sistema de arquivos onde você edita, adiciona, remove e gerencia os arquivos do seu projeto.
+
+b. Stage Area, Commit: A Stage Área é onde você prepara as alterações para um commit. Está entre o diretório de trabalho e o repositório local.
+
+c. Local Repository: É onde todas as informações do histórico são mantidas localmente.
+
+d. Remote Repository: É onde as informações são compartilhadas com outros colaboradores e acessíveis através da Internet.
